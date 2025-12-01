@@ -35,4 +35,27 @@ import { Icon } from '@iconify/vue';
     </header>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 1rem; 
+        // 1.5rem
+        list-style: none;
+        li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 1.1rem;
+            &:hover {
+                color: #555;
+            }
+        }
+    }
+}
+</style>
