@@ -1,14 +1,14 @@
 <script setup>
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import Inspire from './components/Inspire.vue';
 
 </script>
 
 <template>
   <Header />
   <Hero />
-
-<h2>InspiraPixel</h2>
+  <Inspire/>
 
 </template>
 
