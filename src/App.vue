@@ -29,14 +29,14 @@ $primary: #8593ef;
 $secondary: #881149;
 $accent: #e9494c;
 
-/* Modo light */
+/* Modo light 2 */
 $text: #0b0014;
 $background: #f8f0ff;
 $primary: #920bf9;
 $secondary: #fc7e82;
 $accent: #fba050;
 
-/* Dark Mode */
+/* Dark Mode 2 */
 $text: #f6ebff;
 $background: #08000f;
 $primary: #8d06f4;
