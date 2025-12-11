@@ -9,7 +9,7 @@ import axios from "axios";
 const imagens = ref([]);
 
 async function carregarImagens() {
-  const res = await axios.get("https://picsum.photos/v2/list?page=2&limit=10");
+  const res = await axios.get("https://picsum.photos/v2/list?page=33&limit=15");
   imagens.value = res.data;
   console.log(res);
 }
@@ -30,6 +30,7 @@ carregarImagens();
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: center;
 }
 </style>

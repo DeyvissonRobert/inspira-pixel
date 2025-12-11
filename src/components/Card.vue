@@ -21,14 +21,15 @@ const like = ref(false);
 
 <style scoped lang="scss">
 .card {
-    width: 30vw;
-    height: 50vh;
+    width: 29rem;
+    height: 50rem;
     position: relative;
 
     img {
         border-radius: 10px;
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 
     button {
@@ -39,8 +40,8 @@ const like = ref(false);
         background-color: #101e7a;
         border: none;
         border-radius: 50%;
-        padding: 1rem;
-        transition: ease 3s;
+        padding: 0.7rem;
+        transition: ease 0.3s;
         
         &:hover {
             transform: scale(1.1);
